@@ -1,10 +1,9 @@
-import level1.MrKim;
+import level1.StringSort;
 
 public class Main {
     public static void main(String[] args){
-        MrKim kim = new MrKim();
-        String[] names = {"Jane", "Kim"};
-
-        System.out.println(kim.findKim(names));
+        StringSort solution = new StringSort();
+        String[] sol = {"abce", "abcd", "cdx", "wevq", "wewe", "cc", "noon", "moon"};
+        System.out.println(solution.solution(sol, 1));
     }
 }
