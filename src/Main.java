@@ -1,10 +1,8 @@
-import level1.MrKim;
+import level1.*;
 
 public class Main {
     public static void main(String[] args){
-        MrKim kim = new MrKim();
-        String[] names = {"Jane", "Kim"};
-
-        System.out.println(kim.findKim(names));
+        SumDivisor solution = new SumDivisor();
+        System.out.println(solution.solution(12));
     }
 }
