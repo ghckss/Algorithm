@@ -1,9 +1,8 @@
-import level1.StringSort;
+import level1.*;
 
 public class Main {
     public static void main(String[] args){
-        StringSort solution = new StringSort();
-        String[] sol = {"abce", "abcd", "cdx", "wevq", "wewe", "cc", "noon", "moon"};
-        System.out.println(solution.solution(sol, 1));
+        SumDivisor solution = new SumDivisor();
+        System.out.println(solution.solution(12));
     }
 }
